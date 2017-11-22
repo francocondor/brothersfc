@@ -14,6 +14,7 @@ firebase.auth().onAuthStateChanged(function (user) {
         window.location.href = "index.html";
         // No user is signed in.
     } else {
+        console.log(user);
         $('#user-name').html(user.displayName);
         $('#user-pic').attr('src',user.photoURL);        
         fotosContactos();
