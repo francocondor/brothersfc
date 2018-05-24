@@ -65,7 +65,9 @@ $('#btn-facebook').click(function () {
             }
         });
 });
+
 console.log('He vuelto :) amigos');
+
 function guardarDatos(user) {
     console.log(user);
     console.log('GUARDANDO DATOSSSSSSSS!');
