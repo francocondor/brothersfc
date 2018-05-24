@@ -65,7 +65,7 @@ $('#btn-facebook').click(function () {
             }
         });
 });
-console.log('Bienvenido');
+console.log('He vuelto :)');
 function guardarDatos(user) {
     console.log(user);
     console.log('GUARDANDO DATOSSSSSSSS!');
